@@ -88,7 +88,13 @@ class Projects extends Component {
                 <Button colored>GitHub</Button>
               </a>
 
-              <Button colored>Live Demo (Coming Soon)</Button>
+              <a
+                href="https://hkahng92.github.io/counter-app/"
+                rel="noopener noreferrer"
+                target="_blank"
+              >
+                <Button colored>Live Demo</Button>
+              </a>
               {/*<Button colored>Live Demo</Button>*/}
             </CardActions>
             <CardMenu style={{ color: "#fff" }}>
@@ -121,7 +127,13 @@ class Projects extends Component {
                 <Button colored>GitHub</Button>
               </a>
 
-              <Button colored>Live Demo (Coming Soon)</Button>
+              <a
+                href="https://hkahng92.github.io/shopping-summary/"
+                rel="noopener noreferrer"
+                target="_blank"
+              >
+                <Button colored>Live Demo</Button>
+              </a>
               {/*<Button colored>Live Demo</Button>*/}
             </CardActions>
             <CardMenu style={{ color: "#fff" }}>
@@ -131,6 +143,8 @@ class Projects extends Component {
         </div>
       );
     } else if (this.state.activeTab === 1) {
+      return <div>Java Projects will come after May 28th 2019. Thank you.</div>;
+    } else if (this.state.activeTab === 2) {
       return (
         <div className="projects-grid">
           {/*Project 1*/}
@@ -148,12 +162,8 @@ class Projects extends Component {
             <CardText>Here is my first Python upload</CardText>
             <CardActions border>
               {/*Change the destination path for the buttons*/}
-              <a
-                href="https://github.com/hkahng92/weather-app"
-                rel="noopener noreferrer"
-                target="_blank"
-              >
-                <Button colored>GitHub</Button>
+              <a href="" rel="noopener noreferrer" target="_blank">
+                <Button colored>Coming Soon</Button>
               </a>
 
               {/*<Button colored>Live Demo</Button>*/}
@@ -177,12 +187,8 @@ class Projects extends Component {
             <CardText>Here is my first MySQL upload</CardText>
             <CardActions border>
               {/*Change the destination path for the buttons*/}
-              <a
-                href="https://github.com/hkahng92/weather-app"
-                rel="noopener noreferrer"
-                target="_blank"
-              >
-                <Button colored>GitHub</Button>
+              <a href="" rel="noopener noreferrer" target="_blank">
+                <Button colored>Coming Soon</Button>
               </a>
 
               {/*<Button colored>Live Demo</Button>*/}
@@ -206,6 +212,7 @@ class Projects extends Component {
             ripple
           >
             <Tab>JavaScript & React</Tab>
+            <Tab>Java</Tab>
             <Tab>Python & MySQL</Tab>
           </Tabs>
 
