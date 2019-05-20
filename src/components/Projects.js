@@ -162,7 +162,7 @@ class Projects extends Component {
             <CardText>Here is my first Python upload</CardText>
             <CardActions border>
               {/*Change the destination path for the buttons*/}
-              <a href="" rel="noopener noreferrer" target="_blank">
+              <a href="#js" rel="noopener noreferrer" target="_blank">
                 <Button colored>Coming Soon</Button>
               </a>
 
@@ -187,7 +187,7 @@ class Projects extends Component {
             <CardText>Here is my first MySQL upload</CardText>
             <CardActions border>
               {/*Change the destination path for the buttons*/}
-              <a href="" rel="noopener noreferrer" target="_blank">
+              <a href="#js" rel="noopener noreferrer" target="_blank">
                 <Button colored>Coming Soon</Button>
               </a>
 
